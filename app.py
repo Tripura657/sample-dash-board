@@ -36,30 +36,25 @@ if st.session_state.page == "home":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        if st.button("💬 Chatbot"):
-            st.session_state.page = "chatbot"
+        
         st.markdown('<div class="tile"><img src="https://cdn-icons-png.flaticon.com/512/4712/4712036.png"><p>Chatbot</p></div>', unsafe_allow_html=True)
 
     with col2:
-        if st.button("🤗 Virtual Hug"):
-            st.session_state.page = "hug"
+        
         st.markdown('<div class="tile"><img src="https://cdn-icons-png.flaticon.com/512/1687/1687363.png"><p>Virtual Hug</p></div>', unsafe_allow_html=True)
 
     with col3:
-        if st.button("📖 Motivational Story"):
-            st.session_state.page = "story"
+        
         st.markdown('<div class="tile"><img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"><p>Story</p></div>', unsafe_allow_html=True)
 
     col4, col5 = st.columns(2)
 
     with col4:
-        if st.button("🎭 Character Talk"):
-            st.session_state.page = "character"
+        
         st.markdown('<div class="tile"><img src="https://cdn-icons-png.flaticon.com/512/1995/1995533.png"><p>Character Talk</p></div>', unsafe_allow_html=True)
 
     with col5:
-        if st.button("🫧 Bubble Game"):
-            st.session_state.page = "bubble"
+        
         st.markdown('<div class="tile"><img src="https://cdn-icons-png.flaticon.com/512/3565/3565418.png"><p>Bubble Game</p></div>', unsafe_allow_html=True)
 
 # --- MODULE PAGES ---
